@@ -1,0 +1,107 @@
+.reactcalc-container {
+	
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+
+	position: absolute;
+	width: 320px;
+	background: #fefefe;
+	box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+
+.reactcalc-screen {
+	font: 13px Arial;
+	position: relative;
+	display: table-cell;
+	width: 310px;
+	height: 80px;
+	border-bottom: 1px solid #ccc;
+	text-align: right;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 0 5px;
+	vertical-align: middle;
+}
+
+.reactcalc-numpad {
+	height: 250px;
+	background: #eee;
+}
+
+.reactcalc-button {
+	font-size: 22px;
+	color: #000;
+	background: transparent;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	display: inline-block;
+	width: 80px;
+	height: 50px;
+	border: 0;
+}
+.reactcalc-menu {
+	cursor: move;
+}
+.reactcalc-menu label {
+	font: 13px Arial;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.reactcalc-button-menu {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.reactcalc-button-menu-close {
+	width: 25px;
+	height: 25px;
+	color: #ccc;
+	float:right;
+}
+
+.reactcalc-button-menu {
+	border-radius: 5px 0 0 0;
+}
+
+.reactcalc-button-menu:hover {
+	background: rgba(0,0,0,0.1) !important;
+}
+
+.reactcalc-button-menu:active {
+	background: rgba(0,0,0,0.2) !important;
+}
+
+
+.reactcalc-button-menu-close {
+	border-radius: 0 5px 0 0;
+}
+.reactcalc-button-menu-close:hover {
+	color: #fff;
+	background: rgba(255,0,0,0.5) !important;
+}
+
+.reactcalc-button-menu-close:active {
+	color: #fff;
+	background: rgba(255,0,0,0.9) !important;
+}
+
+.reactcalc-numbutton {
+	font-weight: bold;
+}
+
+.reactcalc-button:hover {
+	background: rgba(0,0,0,0.2);
+}
+
+.reactcalc-button:active {
+	background: rgba(0,0,0,0.4);
+}
+
+.reactcalc-button:focus {
+	outline: none;
+}
